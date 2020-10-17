@@ -1,5 +1,7 @@
 import React from 'react';
-import axios from 'axios'
+import axios from 'axios';
+import Header from './Header.js';
+
 class Home extends React.Component {
     // constructor(props){
     //     super(props);
@@ -29,7 +31,7 @@ class Home extends React.Component {
     // }
 render(){
     return (
-    <div>
+    /*<div>
         <div>Hello world</div>
             <form  action="Home.js" method="post" id="contactForm" novalidate="novalidate">
                 <div class="row">
@@ -57,7 +59,10 @@ render(){
                 <div class="form-group mt-3">
                     <button type="submit" class="button button-contactForm boxed-btn" id="contactUsBtn">Send</button>
                 </div>
-            </form>
+            </form> 
+    </div>*/
+    <div className="App">
+        <Header></Header>
     </div>
     );
 }
