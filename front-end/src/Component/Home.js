@@ -1,5 +1,7 @@
 import React from 'react';
-import axios from 'axios'
+// import axios from 'axios'
+import Footer from './Footer.js';
+
 class Home extends React.Component {
     // constructor(props){
     //     super(props);
@@ -58,6 +60,7 @@ render(){
                     <button type="submit" class="button button-contactForm boxed-btn" id="contactUsBtn">Send</button>
                 </div>
             </form>
+        <Footer/>
     </div>
     );
 }
