@@ -63,8 +63,10 @@ render(){
     </div>*/
     <div className="App">
         <Header></Header>
-    </div>
-    );
+        <p>Hello world</p>
+        <p>Hello world</p>
+        <img src="../public/images/car.jpg" alt="car" width="800" height="600"></img>
+    </div>);
 }
 }
 export default Home;
