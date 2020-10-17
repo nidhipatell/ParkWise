@@ -5,7 +5,7 @@ import Header from './Header.js';
 class Login extends React.Component {
     render() {
         return (
-            <div></div>
+            <div><h1>HELLO</h1></div>
             )
     }
 }
