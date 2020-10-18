@@ -1,0 +1,33 @@
+.menu-ul {
+    font:15px "Lucida Console", san-serif;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #17223B;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .menu-ul li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #FF6768;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
