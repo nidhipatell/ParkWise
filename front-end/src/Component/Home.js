@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './Footer.js';
 import axios from 'axios';
 import Header from './Header.js';
-
+import Signup from './Signup.js'
 class Home extends React.Component {
     // constructor(props){
     //     super(props);
