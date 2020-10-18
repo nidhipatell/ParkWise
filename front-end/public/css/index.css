@@ -1,10 +1,11 @@
 .menu-ul {
+  font:15px "Lucida Console", san-serif;
   list-style-type: none;
   float: right;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #263859;
+  background-color: #17223B;
   position: absolute;
   top:0px;
   left: 0px;
