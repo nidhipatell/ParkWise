@@ -1,3 +1,11 @@
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
 .menu-ul {
     font:15px "Lucida Console", san-serif;
     list-style-type: none;
@@ -15,17 +23,34 @@
   .menu-ul li {
     float: right;
   }
-  
-  li a {
+
+  a.NavBtn {
+    float: right;
+    display: block;
+    color: white;
+    background:#17223B;
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    text-align: center;
+  }
+    
+
+
+  /*li a {
     display: block;
     color: white;
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
-  }
+  }*/
   
-  li a:hover:not(.active) {
-    background-color: #FF6768;
+  a.NavBtn:hover {
+    border:none;
+    background:#FF6768;
+    color: white;
   }
   
   .active {
