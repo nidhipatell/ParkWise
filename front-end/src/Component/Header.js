@@ -6,7 +6,7 @@ export default class Header extends Component {
             <div className="Header">
                 <ul className = "menu-ul">
                     <li><a href="#Contact Us">Contact Us</a></li>
-                    <li><a href="#Authenticate">Authenticate</a></li>                
+                    <li><a href="Login.js">Authenticate</a></li>                
                     <li><a href="#About Us">About Us</a></li>
                 </ul>
             </div>

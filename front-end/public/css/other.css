@@ -1,0 +1,13 @@
+.ttl {
+    width: 100%;
+    font:15px "Lucida Console", san-serif;
+    position: relative;
+    margin-top: -50%;
+    padding-left: 2em;
+}
+
+.ttl h1{
+    text-align: left;
+    color:white;
+    font-size: 10vh;
+}
