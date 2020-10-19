@@ -8,7 +8,7 @@ export default class Signup extends Component
         return 
         (
             <div className="background"> 
-            <p>NIDHIIIIIIIIIIIII</p>
+            <pThis is the sign up page</p>
             </div>
         );
     }
