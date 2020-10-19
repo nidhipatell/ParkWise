@@ -5,10 +5,9 @@ import React, {Component} from 'react';
 export default class Signup extends Component
 {
     render(){
-        return 
-        (
+        return(
             <div className="background"> 
-            <pThis is the sign up page</p>
+            <p> This is the sign up page </p>
             </div>
         );
     }
