@@ -13,6 +13,7 @@ function App()
     <Router>
       <div>
         <Switch>
+          <Route path="/" component={Signup}/>
           <Route path="/Login" component={Login}/>
           <Route path="/" component={Home} />
         </Switch>
