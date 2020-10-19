@@ -1,5 +1,6 @@
 .background
 {
+<<<<<<< HEAD
    
     background-color: #66DAC7;
     width: 50%;
@@ -7,3 +8,16 @@
     max-width: 50%;
    
 }
+=======
+    width: 100%;
+    max-height: 100%;
+    background-color: #66DAC7;
+}
+.back
+{
+    width: 50%;
+    background-color: #2E4158;
+    padding: 25px 40px;
+    overflow: auto;
+}
+>>>>>>> 3c84d7bd97eceeb442dd11d532e4688d5448a5ea
