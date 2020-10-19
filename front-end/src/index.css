@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 /* .menu-ul {
-=======
-bmenu-ul {
->>>>>>> Stashed changes
   font:15px "Lucida Console", san-serif;
   list-style-type: none;
   float: right;
@@ -20,8 +16,7 @@ bmenu-ul {
   float: right;
 }
 
-li a 
-{
+li a {
   display: block;
   color: white;
   text-align: center;
