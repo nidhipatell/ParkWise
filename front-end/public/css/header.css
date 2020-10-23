@@ -1,0 +1,58 @@
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+.menu-ul {
+    font:15px "Lucida Console", san-serif;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #17223B;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .menu-ul li {
+    float: right;
+  }
+
+  a.NavBtn {
+    float: right;
+    display: block;
+    color: white;
+    background:#17223B;
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    text-align: center;
+  }
+    
+
+
+  /*li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }*/
+  
+  a.NavBtn:hover {
+    border:none;
+    background:#FF6768;
+    color: white;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
