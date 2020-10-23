@@ -5,32 +5,7 @@ import Header from './Header.js';
 import Contactus from './Contactus';
 
 class Home extends React.Component {
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-    //         userEmail: ''
-    //     }    
-    //     this.takeEmailValue = this.takeEmailValue.bind()
-    // }
-    // takeEmailValue = (e) => { 
-    //     this.setState({ userEmail: e.target.value })
-    //  }
 
-    // componentDidMount() {
-    //     axios({
-    //         method: 'post',
-    //         url: '/Home',
-    //         data: {
-    //             email: this.state.userEmail,
-    //             firstName: 'shedrack',
-    //             lastName: 'akintayo'
-    //         }
-    //     });
-    // }
-
-    // shouldComponentUpdate(){
-    //     console.log(this.state.userEmail);
-    // }
 render(){
     return (
     <div className="App">
