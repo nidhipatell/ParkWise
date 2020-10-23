@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './Footer.js';
 import axios from 'axios';
 import Header from './Header.js';
+import Contactus from './Contactus';
 
 class Home extends React.Component {
     // constructor(props){
