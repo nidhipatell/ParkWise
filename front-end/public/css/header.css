@@ -1,4 +1,4 @@
-* {
+*{
 	-webkit-transition-property: all;
 	-webkit-transition-duration: .2s;
   -moz-transition-timing-function: cubic-bezier(100,50,21,6);
@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #17223B;
+    background: transparent;
     position: absolute;
     top:0px;
     left: 0px;
@@ -27,8 +27,8 @@
   a.NavBtn {
     float: right;
     display: block;
-    color: white;
-    background:#17223B;
+    color: #17223B;
+    background:transparent;
     padding:10px 20px;
     font-size:12px;
     text-decoration:none;
