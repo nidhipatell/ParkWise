@@ -9,9 +9,7 @@ render(){
     return (
     <div className="App">
         <Header></Header>
-        <p>Hello world</p>
-        <p>Hello world</p>
-        <img src="../public/images/car.jpg" alt="car" width="800" height="600"></img>
+        <img src={process.env.PUBLIC_URL + "images/car.jpg"} width="100%"></img>
         <Footer></Footer>
     </div>
     );
