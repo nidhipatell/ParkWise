@@ -20,12 +20,16 @@ export default class Signup extends Component
 
                     <div class="textbox">
                         <i class="fas fa-user"></i>
-                        <input type="First Name" placeholder="First Name"></input>
+                        <input type="text" placeholder="firstname"></input>
                     </div>
 
                     <div class="textbox">
                     <i class="fas fa-user"></i>
-                        <input type="Last Name" placeholder="Last Name"></input>
+                        <input type="text" placeholder="lastname"></input>
+                    </div>
+                    <div class="textbox">
+                    <i class="fas fa-phone"></i>
+                        <input type="text" placeholder="Phone Number"></input>
                     </div>
 
                     <div class="textbox">
@@ -33,6 +37,7 @@ export default class Signup extends Component
                         <input type="password" placeholder="Password"></input>
                     </div>
 
+                    
                     <input type="button" class="btn" value="Sign up"></input>
                     
                     </div>
