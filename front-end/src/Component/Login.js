@@ -8,8 +8,7 @@ class Login extends React.Component {
         return (
             <div>
                 <Header />
-                <p>Hello world</p>
-                <p>Hello world</p>
+                    <p></p>
                 <Footer />
             </div>
             )

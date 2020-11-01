@@ -1,9 +1,10 @@
 .footer{
     background-color: #17223B;
     margin-top: 50%;
-    padding: 3px;
+    padding: 10px;
     font:15px "Lucida Console", san-serif;
-}
+    vertical-align: text-bottom;
+}   
 
 .footer h3{
     text-align: center;    

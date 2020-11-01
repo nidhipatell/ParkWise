@@ -29,16 +29,14 @@ class Home extends React.Component {
     // shouldComponentUpdate(){
     //     console.log(this.state.userEmail);
     // }
-render(){
-    return (
-    <div className="App">
-        <Header></Header>
-        <p>Hello world</p>
-        <p>Hello world</p>
-        <img src="../public/images/car.jpg" alt="car" width="800" height="600"></img>
-        <Footer></Footer>
-    </div>
-    );
+    render(){
+        return (
+        <div>
+            <Header></Header>
+            <img className = "img" src={process.env.PUBLIC_URL + "/car.jpg"} width="50%"></img>
+            <Footer></Footer>
+        </div>
+        );
+        }
     }
-}
-export default Home;
+    export default Home;
