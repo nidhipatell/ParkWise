@@ -12,7 +12,6 @@ class Footer extends React.Component {
                         <a>Hardik Hajela - </a>
                         <a>Het Patel</a>
                     </div>
-                    <p>Group 26</p>
                 </footer>
             </div>
         )

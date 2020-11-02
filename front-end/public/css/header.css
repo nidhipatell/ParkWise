@@ -7,11 +7,11 @@
 }
 
 .menu-ul {
-    font:15px "Lucida Console", san-serif;
+    font:14px "Lucida Console", san-serif;
     list-style-type: none;
     float: right;
     margin: 0;
-    padding: 0;
+    padding: 1%;
     overflow: hidden;
     background: transparent;
     position: absolute;
@@ -27,32 +27,65 @@
   a.NavBtn {
     float: right;
     display: block;
-    color: #17223B;
+    color: white;
     background:transparent;
-    padding:10px 20px;
-    font-size:12px;
+    padding:12px 20px;
+    font-size:17px;
     text-decoration:none;
     letter-spacing:2px;
     text-transform:uppercase;
     text-align: center;
   }
-    
-
-
-  /*li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 18px 20px;
-    text-decoration: none;
-  }*/
   
   a.NavBtn:hover {
     border:none;
+    border-radius: 35px;
     background:#FF6768;
     color: white;
   }
   
   .active {
     background-color: #4CAF50;
+  }
+
+  .header {
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(car.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    font:14px "Lucida Console", san-serif;
+    padding: 10%;
+  }
+
+  .search-field {
+    height:60px;
+    width: 300px;
+    padding:20px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    margin-bottom: 10%;
+    margin-right: 3%;
+  }
+
+  .search-btn {
+    height:40px;
+    justify-content: center; 
+  }
+
+  .para {
+    color: white;
+    font-weight: bold;
+    font:100px "Lucida Console", san-serif;
+    margin-bottom: 1.5%;
+  }
+
+  .explore {
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 35px;
+    font:14px "Lucida Console", san-serif;
   }
