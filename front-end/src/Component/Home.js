@@ -2,41 +2,31 @@ import React from 'react';
 import Footer from './Footer.js';
 import axios from 'axios';
 import Header from './Header.js';
+
 class Home extends React.Component {
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-    //         userEmail: ''
-    //     }    
-    //     this.takeEmailValue = this.takeEmailValue.bind()
-    // }
-    // takeEmailValue = (e) => { 
-    //     this.setState({ userEmail: e.target.value })
-    //  }
 
-    // componentDidMount() {
-    //     axios({
-    //         method: 'post',
-    //         url: '/Home',
-    //         data: {
-    //             email: this.state.userEmail,
-    //             firstName: 'shedrack',
-    //             lastName: 'akintayo'
-    //         }
-    //     });
-    // }
-
-    // shouldComponentUpdate(){
-    //     console.log(this.state.userEmail);
-    // }
-    render(){
-        return (
-        <div>
-            <Header></Header>
-            <img className = "img" src={process.env.PUBLIC_URL + "/car.jpg"} width="50%"></img>
-            <Footer></Footer>
+render(){
+    return (
+    <div className="App">
+        <Header></Header>
+        <div className = "header">
+            <form>
+                <div className = "form-box">
+                    <input type = "text" className = "search-field" 
+                    placeholder = "Location"></input>
+                    <input type = "date" className = "search-field" 
+                    placeholder = "Check in date"></input>
+                    <input type = "date" className = "search-field" 
+                    placeholder = "Check out date"></input>
+                    <button className = "search-btn" type = "button">Search</button>
+                </div>
+            </form>
+            <h1 className = "para">Park N'Go</h1>
+            <button className = "explore" type = "button">Explore nearby locations</button>
         </div>
-        );
-        }
+        <Footer></Footer>
+    </div>
+    );
     }
-    export default Home;
+}
+export default Home;

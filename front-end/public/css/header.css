@@ -1,4 +1,4 @@
-/* * {
+*{
 	-webkit-transition-property: all;
 	-webkit-transition-duration: .2s;
   -moz-transition-timing-function: cubic-bezier(100,50,21,6);
@@ -7,13 +7,13 @@
 }
 
 .menu-ul {
-    font:15px "Lucida Console", san-serif;
+    font:14px "Lucida Console", san-serif;
     list-style-type: none;
     float: right;
     margin: 0;
-    padding: 0;
+    padding: 1%;
     overflow: hidden;
-    background-color: #17223B;
+    background: transparent;
     position: absolute;
     top:0px;
     left: 0px;
@@ -28,181 +28,64 @@
     float: right;
     display: block;
     color: white;
-    background:#17223B;
-    padding:15px 20px;
-    font-size:15px;
+    background:transparent;
+    padding:12px 20px;
+    font-size:17px;
     text-decoration:none;
     letter-spacing:2px;
     text-transform:uppercase;
     text-align: center;
-    line-height: 40px;
   }
   
   a.NavBtn:hover {
     border:none;
+    border-radius: 35px;
     background:#FF6768;
     color: white;
   }
   
   .active {
     background-color: #4CAF50;
-  } */
+  }
 
-  .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: 80px;
-    display: flex;
+  .header {
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(car.jpg);
+    background-size: cover;
+    background-position: center;
     justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+    align-content: center;
+    font:14px "Lucida Console", san-serif;
+    padding: 10%;
   }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    max-width: 1500px;
+
+  .search-field {
+    height:60px;
+    width: 300px;
+    padding:20px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    margin-bottom: 10%;
+    margin-right: 3%;
   }
-  
-  .navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
+
+  .search-btn {
+    height:40px;
+    justify-content: center; 
   }
-  
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
+
+  .para {
+    color: white;
+    font-weight: bold;
+    font:100px "Lucida Console", san-serif;
+    margin-bottom: 1.5%;
   }
-  
-  .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: end;
-    margin-right: 2rem;
-  }
-  
-  .nav-item {
-    height: 80px;
-  }
-  
-  .nav-links {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
-  }
-  
-  .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
-  }
-  
-  .fa-bars {
-    color: #FF6768;;
-  }
-  
-  .nav-links-mobile {
-    display: none;
-  }
-  
-  .menu-icon {
-    display: none;
-  }
-  
-  @media screen and (max-width: 960px) {
-    .NavbarItems {
-      position: relative;
-    }
-  
-    .nav-menu {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 90vh;
-      position: absolute;
-      top: 80px;
-      left: -100%;
-      opacity: 1;
-      transition: all 0.5s ease;
-    }
-  
-    .nav-menu.active {
-      background: #242222;
-      left: 0;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
-    }
-  
-    .nav-links {
-      text-align: center;
-      padding: 2rem;
-      width: 100%;
-      display: table;
-    }
-  
-    .nav-links:hover {
-      background-color: #FF6768;;
-      color: #242424;
-      border-radius: 0;
-    }
-  
-    .navbar-logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
-    }
-  
-    .menu-icon {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 60%);
-      font-size: 1.8rem;
-      cursor: pointer;
-    }
-  
-    .fa-times {
-      color:#FF6768;
-      font-size: 2rem;
-    }
-  
-    .nav-links-mobile {
-      display: block;
-      text-align: center;
-      margin: 2rem auto;
-      border-radius: 4px;
-      width: 80%;
-      text-decoration: none;
-      font-size: 1.5rem;
-      background-color: transparent;
-      color: #FF6768;
-      padding: 14px 20px;
-      border: 1px solid #fff;
-      transition: all 0.3s ease-out;
-    }
-  
-    .nav-links-mobile:hover {
-      background: #FF6768;
-      color: #242424;
-      transition: 250ms;
-    }
+
+  .explore {
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 35px;
+    font:14px "Lucida Console", san-serif;
   }
