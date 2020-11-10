@@ -36,8 +36,6 @@ export default class Signup extends Component
                         <i class="fas fa-lock"></i>
                         <input type="password" placeholder="Password"></input>
                     </div>
-
-                    
                     <input type="button" class="btn" value="Sign up"></input>
                     
                     </div>
