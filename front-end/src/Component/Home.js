@@ -3,6 +3,7 @@ import Footer from './Footer.js';
 import axios from 'axios';
 import Header from './Header.js';
 
+
 class Home extends React.Component {
 
 render(){
@@ -28,7 +29,16 @@ render(){
             <h1 className = "para">Park N'Go</h1>
             <button className = "explore" type = "button">Explore nearby locations</button>
         </div>
-        <Footer></Footer>
+        <div className="cities">
+        <h3 className="city"> Featured Cities</h3>
+        <div className="imageTor">Toronto</div>
+        <div className="imageOta">Ottawa</div>
+        <div className="imageVan">Vancover</div>
+        <div className="imageAlb">Alberta</div>
+        <div className="imageMon">Monteral</div>
+        <div className="imageQue">Quebec</div>
+        </div>
+        
     </div>
     );
     }

@@ -23,7 +23,7 @@ class Login extends React.Component {
 
                     <input type="button" class="btn" value="Sign in"></input>
                     </div>
-                <Footer />
+                
             </div>
             )
     }

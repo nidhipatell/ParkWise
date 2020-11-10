@@ -41,8 +41,9 @@ export default class Signup extends Component
                     <input type="button" class="btn" value="Sign up"></input>
                     
                     </div>
-                <Footer />
+                  
             </div>
+            
         );
     }
 }
