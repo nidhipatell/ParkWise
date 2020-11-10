@@ -59,20 +59,32 @@
     padding: 10%;
   }
 
-  .search-field {
+  .search-field 
+  {
     height:60px;
-    width: 300px;
+    width: 260px;
     padding:20px;
     border: none;
     border-radius: 35px;
     outline: none;
     margin-bottom: 10%;
-    margin-right: 3%;
+    margin-right: 1%;
   }
 
   .search-btn {
     height:40px;
     justify-content: center; 
+  }
+  .search-fields
+  {
+    height: 50px;
+    width:150px;
+    padding: 30px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    margin-bottom: 10%;
+    margin-right:1%;
   }
 
   .para {

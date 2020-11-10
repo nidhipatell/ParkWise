@@ -18,6 +18,8 @@ render(){
                     placeholder = "Check in date"></input>
                     <input type = "date" className = "search-field" 
                     placeholder = "Check out date"></input>
+                    <input type = "number" className = "search-fields"
+                    placeholder = "adults"></input>
                     <button className = "search-btn" type = "button">Search</button>
                 </div>
             </form>
