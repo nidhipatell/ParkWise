@@ -30,10 +30,13 @@ render(){
             <button className = "explore" type = "button">Explore nearby locations</button>
         </div>
         <div className="cities">
-        <h3> Featured Cities</h3>
+        <h3 className="city"> Featured Cities</h3>
         <div className="imageTor">Toronto</div>
         <div className="imageOta">Ottawa</div>
         <div className="imageVan">Vancover</div>
+        <div className="imageAlb">Alberta</div>
+        <div className="imageMon">Monteral</div>
+        <div className="imageQue">Quebec</div>
         </div>
         
     </div>
