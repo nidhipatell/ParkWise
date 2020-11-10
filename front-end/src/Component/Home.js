@@ -22,6 +22,7 @@ render(){
                     placeholder = "adults"></input>
                     <button className = "search-btn" type = "button">Search</button>
                 </div>
+                
             </form>
             <h1 className = "para">Park N'Go</h1>
             <button className = "explore" type = "button">Explore nearby locations</button>
