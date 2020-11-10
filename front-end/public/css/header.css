@@ -124,3 +124,41 @@
     border-radius: 35px;
     font:14px "Lucida Console", san-serif;
   }
+  .cities
+  {
+    text-align: center;
+    color: white;
+    background-color: #17223B;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;     
+  }
+  .imageTor
+  {
+    background: url(../images/toronto.jpg);
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+  }
+  .imageOta
+  {
+    background: url(../images/ottawa.jpg);
+    width: 500px;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: 700px;
+    margin-right: 500px;
+  }
+  .imageVan
+  {
+    background: url(../images/vancover.png);
+    width: 500px;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: 1200px;
+    margin-right: 500px;
+  }
+  
+
+
+  
+    
+  
