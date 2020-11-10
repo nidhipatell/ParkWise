@@ -19,7 +19,8 @@ render(){
                     <input type = "date" className = "search-field" 
                     placeholder = "Check out date"></input>
                     <input type = "number" className = "search-fields"
-                    placeholder = "adults"></input>
+                    placeholder = "Cars"></input>
+                    
                     <button className = "search-btn" type = "button">Search</button>
                 </div>
                 
