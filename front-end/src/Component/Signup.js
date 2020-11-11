@@ -4,6 +4,7 @@ import Header from './Header.js';
 import Footer from './Footer.js';
 import { Form, Button, Card, Container, Alert } from 'react-bootstrap'
 import { AuthProvider, useAuth } from "../contexts/AuthContext"
+import { Link } from "react-router-dom"
 
 
 export default function Signup() {
@@ -63,7 +64,7 @@ export default function Signup() {
                         </Card.Body>
                     </Card>
                     <div className="w-100 text-center mt-2">
-                        Already have an account? Log In
+                        Already have an account? <Link to="/Login" className="sign-log-link">Log In</Link>
                     </div>
                 </div>
             </Container>
