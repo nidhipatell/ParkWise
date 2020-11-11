@@ -10,7 +10,6 @@ export default function Header() {
 
     async function handleLogout() {
         setError("")
-        console.log("HELLO")
 
         try {
             await logout()
