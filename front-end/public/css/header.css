@@ -70,9 +70,22 @@
     margin-right: 3%;
   }
 
+  .search-field1 {
+    height:60px;
+    width: 420px;
+    padding:20px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    margin-bottom: 10%;
+    margin-right: 3%;
+  }
+
   .search-btn {
     height:40px;
     justify-content: center; 
+    border: none;
+    border-radius: 100px;
   }
 
   .para {
@@ -88,4 +101,10 @@
     border: none;
     border-radius: 35px;
     font:14px "Lucida Console", san-serif;
+  }
+ 
+  .search-btn {
+    color: white;
+    size: 200;
+    border-radius: 50%;
   }
