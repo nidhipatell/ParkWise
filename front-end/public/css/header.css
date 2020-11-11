@@ -55,43 +55,65 @@
     background-position: center;
     justify-content: center;
     align-content: center;
-    font:14px "Lucida Console", san-serif;
+    font:14px;
     padding: 10%;
   }
 
-  .search-field {
+  .search-field 
+  {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
     height:60px;
-    width: 300px;
+    width: 235px;
     padding:20px;
     border: none;
     border-radius: 35px;
     outline: none;
     margin-bottom: 10%;
-    margin-right: 3%;
+    margin-right: 1%;
   }
 
-  .search-field1 {
-    height:60px;
-    width: 420px;
-    padding:20px;
-    border: none;
-    border-radius: 35px;
-    outline: none;
-    margin-bottom: 10%;
-    margin-right: 3%;
-  }
-
-  .search-btn {
-    height:40px;
+  .search-btn /** " Search button */
+  {
+    height:50px;
+    width: 100px;
+    font-size: 17px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    color: whitesmoke;
+    cursor: pointer;
+    background: transparent;
+    opacity: 0.7;
+    border-radius: 20px;
+    border-bottom-color: yellow;
+    border-top-color: yellow;
+    border-left-color: yellow;
+    border-right-color: yellow;
     justify-content: center; 
-    border: none;
-    border-radius: 100px;
+    margin-bottom: 10%;
+    margin-right: 1%;
   }
-
+  
+  .search-fields /** This is the class for the search feild " number of cars " */
+  {
+    height: 60px;
+    width:200px;
+    font-size: 14px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    text-align: left;
+    padding: 20px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    margin-bottom: 10%;
+    margin-right:1%;
+    justify-content: center; 
+  }
+  
+  
   .para {
     color: white;
     font-weight: bold;
-    font:100px "Lucida Console", san-serif;
+    font-size:100px;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; 
     margin-bottom: 1.5%;
   }
 
@@ -102,9 +124,98 @@
     border-radius: 35px;
     font:14px "Lucida Console", san-serif;
   }
- 
-  .search-btn {
+  .cities
+  {
+    padding-top: 100px;
+    text-align: center;
     color: white;
-    size: 200;
-    border-radius: 50%;
+    background-color: #17223B;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;  
+    font-size: 20px;   
+  }
+  .city
+  {
+    text-align: center;
+    color: white;
+    background-color: #17223B;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;  
+    font-size: 50px;
+
+  }
+  .imageTor
+  {
+    background: url(../images/toronto.jpg);
+    width: 460px;
+    height: 450px;
+    margin-left: 150px;
+  }
+  .imageOta
+  {
+    background: url(../images/ottawa.jpg);
+    width: 460px;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: 670px;
+    margin-right: 500px;
+  }
+  .imageVan
+  {
+    background: url(../images/vancover.png);
+    width: 460px;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: 1190px;
+    margin-right: 500px;
+  }
+  .imageAlb
+  {
+    background: url(../images/alberta.jpg);
+    width: 460px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 500px;
+  }
+  .imageMon
+  {
+    background: url(../images/montereal.jpg);
+    width: 460px;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: 670px;
+    margin-right: 500px;
+  }
+  .imageQue
+  {
+    background: url(../images/quebec.jpg);
+    width: 460px;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: 1190px;
+    margin-right: 500px;
+  }
+
+  .searchPara{
+    padding-top:15%;
+    color:#17223B;
+  }
+
+  .services{
+    background-color:aliceblue;
+  }
+  
+  .secondrow .icon{
+    padding-right: 30px;
+  }
+
+  .bookPara{
+    padding-top:10%;
+    color:#17223B;
+
+  }
+
+  .budgetPara{
+    padding-top: 10%;
+    color:#17223B;
+    padding-left: 10px;
   }
