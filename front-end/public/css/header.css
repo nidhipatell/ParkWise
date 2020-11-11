@@ -126,6 +126,7 @@
   }
   .cities
   {
+    padding-top: 100px;
     text-align: center;
     color: white;
     background-color: #17223B;
@@ -194,7 +195,27 @@
     margin-right: 500px;
   }
 
+  .searchPara{
+    padding-top:15%;
+    color:#17223B;
+  }
 
+  .services{
+    background-color:aliceblue;
+  }
   
-    
-  
+  .secondrow .icon{
+    padding-right: 30px;
+  }
+
+  .bookPara{
+    padding-top:10%;
+    color:#17223B;
+
+  }
+
+  .budgetPara{
+    padding-top: 10%;
+    color:#17223B;
+    padding-left: 10px;
+  }

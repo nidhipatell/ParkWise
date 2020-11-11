@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Component/Home';
 import Login from './Component/Login';
 import Signup from './Component/Signup';
+import Contact from './Component/Contact';
 
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -18,6 +19,7 @@ function App()
           <Switch>
             <Route path="/Signup" component={Signup}/>
             <Route path="/Login" component={Login}/>
+            <Route path="/Contact" component={Contact}/>
             <Route exact path="/" component={Home} />
           </Switch>
         </div>
