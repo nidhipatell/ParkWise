@@ -1,0 +1,140 @@
+*{
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+.menu-ul {
+    font:14px "Lucida Console", san-serif;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    background: transparent;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .menu-ul li {
+    float: right;
+  }
+
+  a.NavBtn {
+    float: right;
+    display: block;
+    color: white;
+    background:transparent;
+    padding:12px 20px;
+    font-size:17px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    text-align: center;
+  }
+  
+  a.NavBtn:hover {
+    border:none;
+    border-radius: 35px;
+    background:#FF6768;
+    color: white;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .contactback {
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(city.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    font:14px;
+    padding: 10%;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 246, 253);
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; 
+}
+
+.app {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Contact.js */
+.form {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  /* border: none; */
+  background: #fff;
+  font:16px "Lucida Console", san-serif;
+  color: rgb(0, 0, 32);
+  outline: none;
+  max-width: 500px;
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 196);
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 500px;
+  min-height: 100px;
+}
+
+.form > label {
+  padding-bottom: 10px;
+  color:white;
+  font:20px "Lucida Console", san-serif;
+  font-weight: bold;
+}
+
+.form > button {
+  padding: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: black;
+  max-width: 500px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.form > button:hover {
+  background-color:#ff6768;
+}

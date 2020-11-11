@@ -8,7 +8,7 @@ class Header extends Component {
                     <ul className = "menu-ul">
                         <li><a href="/Signup" className="NavBtn">Sign Up</a></li>
                         <li><a href="/Login" className="NavBtn">Login In</a></li>                
-                        <li><a href="#About Us" className="NavBtn">Contact Us</a></li>
+                        <li><a href="/Contact" className="NavBtn">Contact Us</a></li>
                         <li><a href="/" className="NavBtn">About Us</a></li>
                     </ul>
                 </nav>

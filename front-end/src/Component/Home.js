@@ -13,15 +13,15 @@ render(){
         <div className = "header">
             <form>
                 <div className = "form-box">
-                    <input type = "text" className = "search-field" 
-                    placeholder = "Location"></input>
+                    <input type = "text" className = "search-field1" 
+                    placeholder = "Enter the address"></input>
                     <input type = "date" className = "search-field" 
                     placeholder = "Check in date"></input>
                     <input type = "date" className = "search-field" 
                     placeholder = "Check out date"></input>
-                    <input type = "number" className = "search-fields"
-                    placeholder = " Number Of Cars"></input>
-                    <button className = "search-btn" type = "button">Search</button>
+                    <a class = "search-btn" href="#">
+                        <i class="fas fa-search-location"></i>
+                    </a>
                 </div>
             </form>
             <h1 className = "para">Park N'Go</h1>
@@ -49,7 +49,7 @@ render(){
                     </div>
                     <div className="thirdrow row">
                         <div className="icon col-md-5">
-                            <img src="images/budget.png" alt="" />
+                            <img className = "cashh" src="images/cash.png" alt=""/>
                         </div>
                         <div className="budgetPara col-md-7">
                             <h2>Book</h2>
