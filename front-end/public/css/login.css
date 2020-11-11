@@ -48,7 +48,7 @@
   margin: 0 10px;
 }
 ::placeholder{
-  color: #17223B;
+  color: red;
 }
 
 .btn{

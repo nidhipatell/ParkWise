@@ -1,5 +1,6 @@
 .signup-container
 {
+  
     margin: 0;
     padding: 0;
     height: 5%;
@@ -48,7 +49,7 @@
     margin: 0 10px;
   }
   ::placeholder{
-    color: #17223B;
+    color: red;
   }
   
   .btn{
@@ -64,4 +65,6 @@
   
   .btn:hover{
     background-color: #FF6768;
+    border: 2px solid #FF6768;
+    color: #17223B;
   }
