@@ -1,14 +1,40 @@
-import React, {Component, useRef} from 'react';
+import React, {Component, useRef, useState} from 'react';
 import axios from 'axios';
 import Header from './Header.js';
 import Footer from './Footer.js';
-import { Form, Button, Card, Container } from 'react-bootstrap'
+import { Form, Button, Card, Container, Alert } from 'react-bootstrap'
+import { AuthProvider, useAuth } from "../contexts/AuthContext"
 
 
 export default function Signup() {
     const emailRef = useRef()
     const passwordRef = useRef()
     const passwordConfirmRef = useRef()
+    const { signup } = useAuth()
+    const [error, setError] = useState("")
+    const [loading, setLoading] = useState(false)
+
+    async function handleSubmit(e) {
+        e.preventDefault()
+
+        if(passwordRef.current.value.length < 6){
+            return setError("Password is not greater than 6 character")
+        }
+
+        if(passwordRef.current.value !== passwordConfirmRef.current.value){
+            return setError("Password do not match")
+        }
+
+        try {
+            setError('')
+            setLoading(true)
+           // await signup(emailRef.current.value, passwordRef.current.value)
+        } catch {
+            setError("Failed to create an account")
+        }
+        setLoading(false)
+
+    }
     
     return (
         <div className="signup-container">
@@ -18,7 +44,8 @@ export default function Signup() {
                     <Card style={{ background: "none", border: "none"}}>
                         <Card.Body>
                             <h2 className="text-center mb-4">Sign Up</h2>
-                            <Form>
+                            {error && <Alert variant="danger">{error}</Alert>}
+                            <Form onSubmit={handleSubmit}>
                                 <Form.Group id="email">
                                     <Form.Label>Email</Form.Label>
                                     <Form.Control type="email" placeholder="someone@email.com" ref={emailRef} required></Form.Control>  
@@ -31,8 +58,7 @@ export default function Signup() {
                                     <Form.Label>Password Confirmation</Form.Label>
                                     <Form.Control type="password" placeholder="Retype your password" ref={passwordConfirmRef} required></Form.Control>  
                                 </Form.Group>
-                                <Button className="w-100 btn" type="submit">Sign Up</Button>
-
+                                <Button disabled={loading} className="w-100 btn" type="submit">Sign Up</Button>
                             </Form>
                         </Card.Body>
                     </Card>
