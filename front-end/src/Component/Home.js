@@ -13,13 +13,13 @@ export default function Home(){
     }
 
     return (
-    <div className="App">
+    <div>
         <Header></Header>
         <div className = "header">
             <form onSubmit={findlocations}>
                 <div className = "form-box">
-                    <input type = "text" className = "search-field1" 
-                    placeholder = "Enter the address" ref={locationRef}></input>
+                    <input type = "text" className = "search-field" 
+                    placeholder = "Enter location"></input>
                     <input type = "date" className = "search-field" 
                     placeholder = "Check in date"></input>
                     <input type = "date" className = "search-field" 
@@ -49,7 +49,7 @@ export default function Home(){
                         Book for your parking spot at a nearby driveway at a convenient location
                         </div>
                         <div className="icon col-md-5">
-                            <img src="images/book1.png" alt="" />
+                            <img src="images/book.png" alt="" />
                         </div>
                     </div>
                     <div className="thirdrow row">
@@ -57,7 +57,7 @@ export default function Home(){
                             <img className = "cashh" src="images/cash.png" alt=""/>
                         </div>
                         <div className="budgetPara col-md-7">
-                            <h2>Book</h2>
+                            <h2>Budget</h2>
                         Get a budget friendly parking spot for a longer period of time
                         </div>
                     </div>
