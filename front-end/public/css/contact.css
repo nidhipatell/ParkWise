@@ -6,6 +6,18 @@
   -moz-transition-timing-function: cubic-bezier(100,50,21,6);
 }
 
+signup-container1
+{
+  margin: 0;
+  padding: 0;
+  height: 5%;
+  width: 100%;
+  font-family: "Lucida Console";
+  background: url(../images/city.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
 .menu-ul {
     font:14px "Lucida Console", san-serif;
     list-style-type: none;
