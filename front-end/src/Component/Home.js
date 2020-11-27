@@ -1,26 +1,31 @@
-import React from 'react';
+import React, {Component, useRef, useState} from 'react';
 import Footer from './Footer.js';
 import axios from 'axios';
 import Header from './Header.js';
+import { Button } from 'react-bootstrap'
 
 
-class Home extends React.Component {
+export default function Home(){
+    const locationRef = useRef()
 
-render(){
+    function findlocations(e) {
+        console.log(locationRef.current.value)
+    }
+
     return (
     <div className="App">
         <Header></Header>
         <div className = "header">
-            <form>
+            <form onSubmit={findlocations}>
                 <div className = "form-box">
                     <input type = "text" className = "search-field1" 
-                    placeholder = "Enter the address"></input>
+                    placeholder = "Enter the address" ref={locationRef}></input>
                     <input type = "date" className = "search-field" 
                     placeholder = "Check in date"></input>
                     <input type = "date" className = "search-field" 
                     placeholder = "Check out date"></input>
-                    <a class = "search-btn" href="#">
-                        <i class="fas fa-search-location"></i>
+                    <a className = "search-btn" href="#">
+                        <Button className="w-100 btn" type="submit">Search Parking!</Button>
                     </a>
                 </div>
             </form>
@@ -70,6 +75,4 @@ render(){
         
     </div>
     );
-    }
 }
-export default Home;
