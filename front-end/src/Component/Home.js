@@ -8,13 +8,13 @@ class Home extends React.Component {
 
 render(){
     return (
-    <div className="App">
+    <div>
         <Header></Header>
         <div className = "header">
             <form>
                 <div className = "form-box">
-                    <input type = "text" className = "search-field1" 
-                    placeholder = "Enter the address"></input>
+                    <input type = "text" className = "search-field" 
+                    placeholder = "Enter location"></input>
                     <input type = "date" className = "search-field" 
                     placeholder = "Check in date"></input>
                     <input type = "date" className = "search-field" 
