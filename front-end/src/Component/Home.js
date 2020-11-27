@@ -44,7 +44,7 @@ render(){
                         Book for your parking spot at a nearby driveway at a convenient location
                         </div>
                         <div className="icon col-md-5">
-                            <img src="images/book1.png" alt="" />
+                            <img src="images/book.png" alt="" />
                         </div>
                     </div>
                     <div className="thirdrow row">
@@ -52,7 +52,7 @@ render(){
                             <img src="images/budget.png" alt="" />
                         </div>
                         <div className="budgetPara col-md-7">
-                            <h2>Book</h2>
+                            <h2>Budget</h2>
                         Get a budget friendly parking spot for a longer period of time
                         </div>
                     </div>
