@@ -17,6 +17,7 @@ export default function Header() {
         } catch {
             setError("Failed to log out")
         }
+    }
 
     return (
         <div className="Header">
