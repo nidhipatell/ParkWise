@@ -14,11 +14,12 @@ export default class Home extends React.Component{
         this.handleSubmit = this.handleSubmit.bind(this);
       }
 
-      handleSubmit(event) {
+      handleSubmit = (event) => {
         console.log(this.state.value);
         event.preventDefault();
         this.props.history.push({
             pathname: '/Listing',
+            search: this.state.value,
             state: { data: this.state.value }
         });
       }
@@ -26,7 +27,7 @@ export default class Home extends React.Component{
       handleChange(event) {
         this.setState({value: event.target.value});
       }
-
+      
     render() {
         return (
         <div>
