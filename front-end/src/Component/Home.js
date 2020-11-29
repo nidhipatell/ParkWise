@@ -8,13 +8,13 @@ class Home extends React.Component {
 
 render(){
     return (
-    <div className="App">
+    <div>
         <Header></Header>
         <div className = "header">
             <form>
                 <div className = "form-box">
-                    <input type = "text" className = "search-field1" 
-                    placeholder = "Enter the address"></input>
+                    <input type = "text" className = "search-field" 
+                    placeholder = "Enter location"></input>
                     <input type = "date" className = "search-field" 
                     placeholder = "Check in date"></input>
                     <input type = "date" className = "search-field" 
@@ -44,7 +44,7 @@ render(){
                         Book for your parking spot at a nearby driveway at a convenient location
                         </div>
                         <div className="icon col-md-5">
-                            <img src="images/book1.png" alt="" />
+                            <img src="images/book.png" alt="" />
                         </div>
                     </div>
                     <div className="thirdrow row">
@@ -52,8 +52,8 @@ render(){
                             <img className = "cashh" src="images/cash.png" alt=""/>
                         </div>
                         <div className="budgetPara col-md-7">
-                            <h2>Book</h2>
-                        Get a budget friendly parking spot for a longer period of time
+                            <h2>Budget</h2>
+                                Get a budget friendly parking spot for a longer period of time
                         </div>
                     </div>
                 </div>
