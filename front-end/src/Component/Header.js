@@ -3,18 +3,22 @@ import { AuthProvider, useAuth } from "../contexts/AuthContext"
 import { useHistory } from "react-router-dom"
 import { Button } from 'react-bootstrap'
 
-export default function Header() {
+export default function Header() 
+{
     const { currentUser, logout } = useAuth()
     const [error, setError] = useState("")
     const history = useHistory()
 
-    async function handleLogout() {
+    async function handleLogout() 
+    {
         setError("")
 
-        try {
+        try 
+        {
             await logout()
             history.push('/')
-        } catch {
+        } catch 
+        {
             setError("Failed to log out")
         }
     }

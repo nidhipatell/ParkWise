@@ -53,7 +53,7 @@ render(){
                         </div>
                         <div className="budgetPara col-md-7">
                             <h2>Budget</h2>
-                        Get a budget friendly parking spot for a longer period of time
+                                Get a budget friendly parking spot for a longer period of time
                         </div>
                     </div>
                 </div>

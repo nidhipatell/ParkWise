@@ -61,7 +61,7 @@
   }
   .cities
   {
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: center;
     color: white;
     background-color: #17223B;
@@ -89,51 +89,55 @@
   .imageTor
   {
     background: url(../images/toronto.jpg);
-    width: 450px;
-    height: 450px;
-    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
   }
   .imageOta
   {
     background: url(../images/ottawa.jpg);
-    width: 450px;
-    height: 450px;
-    margin-left: 70px;
-    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 470px;
+    margin-right: 0px;
   }
   .imageVan
   {
     background: url(../images/vancover.png);
-    width: 200px;
-    height: 450px;
-    margin-left: 70px;
-    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 930px;
+    margin-right: 0px;
   }
   .imageAlb
   {
     background: url(../images/alberta.jpg);
-    width: 450px;
-    height: 450px;
-    background-repeat: no-repeat;
-
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    
   }
   .imageMon
   {
-    background: url(../images/montreal.jpg);
-    width: 450px;
-    height: 450px;
-    margin-left:70px;
-    background-repeat: no-repeat;
-
-
+    background: url(../images/montereal.jpg);
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 470px;
+    margin-right: 0px;
   }
   .imageQue
   {
     background: url(../images/quebec.jpg);
-    width: 450px;
-    height: 450px;
-    margin-left:70px;
-    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 930px;
+    margin-right: 0px;
   }
 
   .searchPara{
