@@ -44,7 +44,7 @@ render(){
                         Book for your parking spot at a nearby driveway at a convenient location
                         </div>
                         <div className="icon col-md-5">
-                            <img src="images/book.png" alt="" />
+                            <img src="images/book1.png" alt="" />
                         </div>
                     </div>
                     <div className="thirdrow row">
@@ -59,15 +59,21 @@ render(){
                 </div>
             </div>
         <div className="cities">
-        <h3 className="city"> Featured Cities</h3>
-        <div className="imageTor">Toronto</div>
-        <div className="imageOta">Ottawa</div>
-        <div className="imageVan">Vancover</div>
-        <div className="imageAlb">Alberta</div>
-        <div className="imageMon">Monteral</div>
-        <div className="imageQue">Quebec</div>
+            <h3 className="cityTitle"> Featured Cities</h3>
+            <div className="allCities container">
+                <div className="row firstrow">
+                    <div className="imageTor col-md-3">Toronto</div>
+                    <div className="imageOta col-md-3">Ottawa</div>
+                    <div className="imageVan col-md-3">Vancover</div>
+                </div>    
+                <div className="row secondrow">
+                <div className="imageAlb col-md-3">Alberta</div>
+                <div className="imageMon col-md-3">Montreal</div>
+                <div className="imageQue col-md-3">Quebec</div>
+                </div>
+            </div>
         </div>
-        
+        <Footer/>
     </div>
     );
     }

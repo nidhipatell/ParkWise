@@ -40,6 +40,10 @@
   }
   
   
+  .firstrow{
+    padding-top: 50px;
+  }
+
   .para {
     color: white;
     font-weight: bold;
@@ -57,7 +61,7 @@
   }
   .cities
   {
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
     color: white;
     background-color: #17223B;
@@ -73,80 +77,94 @@
     font-size: 50px;
 
   }
+
+  .allCities{
+    padding-top: 20px;
+  }
+  
+  .allCities .row {
+    margin-left: 60px;
+  }
+
   .imageTor
   {
     background: url(../images/toronto.jpg);
-    width: 460px;
+    width: 450px;
     height: 450px;
-    margin-left: 150px;
+    background-repeat: no-repeat;
   }
   .imageOta
   {
     background: url(../images/ottawa.jpg);
-    width: 460px;
-    height: 500px;
-    margin-top: -500px;
-    margin-left: 670px;
-    margin-right: 500px;
+    width: 450px;
+    height: 450px;
+    margin-left: 70px;
+    background-repeat: no-repeat;
   }
   .imageVan
   {
     background: url(../images/vancover.png);
-    width: 460px;
-    height: 500px;
-    margin-top: -500px;
-    margin-left: 1190px;
-    margin-right: 500px;
+    width: 200px;
+    height: 450px;
+    margin-left: 70px;
+    background-repeat: no-repeat;
   }
   .imageAlb
   {
     background: url(../images/alberta.jpg);
-    width: 460px;
-    height: 500px;
-    margin-top: 20px;
-    margin-left: 150px;
-    margin-right: 500px;
+    width: 450px;
+    height: 450px;
+    background-repeat: no-repeat;
+
   }
   .imageMon
   {
-    background: url(../images/montereal.jpg);
-    width: 460px;
-    height: 500px;
-    margin-top: -500px;
-    margin-left: 670px;
-    margin-right: 500px;
+    background: url(../images/montreal.jpg);
+    width: 450px;
+    height: 450px;
+    margin-left:70px;
+    background-repeat: no-repeat;
+
+
   }
   .imageQue
   {
     background: url(../images/quebec.jpg);
-    width: 460px;
-    height: 500px;
-    margin-top: -500px;
-    margin-left: 1190px;
-    margin-right: 500px;
+    width: 450px;
+    height: 450px;
+    margin-left:70px;
+    background-repeat: no-repeat;
   }
 
   .searchPara{
-    padding-top:15%;
+    padding-top:10%;
     color:#17223B;
   }
-
+  
   .services{
     background-color:aliceblue;
   }
   
+  .secondrow{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .secondrow .icon{
     padding-right: 30px;
   }
 
   .bookPara{
-    padding-top:10%;
+    padding-top:60px;
     color:#17223B;
 
   }
 
   .budgetPara{
-    padding-top: 10%;
+    padding-top: 5%;
     color:#17223B;
     padding-left: 10px;
+  }
+
+  .thirdrow{
+    padding-bottom: 40px;
   }
