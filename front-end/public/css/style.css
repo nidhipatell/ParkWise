@@ -200,3 +200,11 @@
   .table{
     margin: 50px 200px 100px;
   }
+  .parking-listing {
+    color: black;
+  }
+
+  .listing-image {
+    width: 286px;
+    height: 260px;
+  }
