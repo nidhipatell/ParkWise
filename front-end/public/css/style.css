@@ -172,3 +172,17 @@
   .thirdrow{
     padding-bottom: 40px;
   }
+  /*============================================Listing CSS===================*/
+  .location-parking{
+    color: white;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    
+  }
+
+  .location-hr{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid white;
+  }
