@@ -6,8 +6,7 @@ import Login from './Component/Login';
 import Signup from './Component/Signup';
 import Contact from './Component/Contact';
 import Listing from './Component/Listing';
-
-
+import Profile from './Component/Profile';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
 
@@ -22,6 +21,7 @@ function App()
             <Route path="/Signup" component={Signup}/>
             <Route path="/Login" component={Login}/>
             <Route path="/Contact" component={Contact}/>
+            <Route path="/Profile" component={Profile}/>
             <Route exact path="/" component={Home} />
           </Switch>
         </div>

@@ -27,7 +27,7 @@
   a.NavBtn {
     float: right;
     display: block;
-    color: white;
+    color: 17223B;
     background:transparent;
     padding:12px 20px;
     font-size:17px;
@@ -41,7 +41,7 @@
     border:none;
     border-radius: 35px;
     background:#FF6768;
-    color: white;
+    color: 17223B;
   }
   
   .active {
