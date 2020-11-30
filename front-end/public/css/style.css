@@ -123,7 +123,7 @@
   }
   .imageMon
   {
-    background: url(../images/montereal.jpg);
+    background: url(../images/montreal.jpg);
     width: 400px;
     height: 400px;
     margin-top: -400px;
@@ -141,7 +141,7 @@
   }
 
   .searchPara{
-    padding-top:10%;
+    padding-top:5%;
     color:#17223B;
   }
   
