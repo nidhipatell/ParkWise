@@ -32,7 +32,21 @@ export default function Listing(props) {
                 <hr className="location-hr"></hr>
                 <div className="location-parking">
                     {locationsList ? locationsList.map((location) => (
-                    <h1>{location}</h1>
+                    <div className = "parking-listing">
+                        <div className = "card flex-row flex-wrap">
+                            <div class="card-header border-0">
+                                <img className = "card-image-left listing-image" src = "/images/house1.jpg"></img>
+                            </div>
+                              <div class="card-body">
+                                <h4 class="card-title">{location.address}</h4>
+                                <p class="card-title">Postal Code: {location.postalcode}</p>
+                                <p className = "card-title">Price: ${location.price}</p>
+                                <p className = "card-title">Spots: {location.spots}</p>
+                                <p className = "card-title">Host: {location.host}</p>
+                                <a href="#" class="btn btn-primary w-100">Book this place</a>
+                            </div>
+                        </div>
+                    </div>
                     )): "Loading"}
                 </div>
             </div>
