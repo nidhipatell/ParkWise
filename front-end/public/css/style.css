@@ -188,9 +188,9 @@
   }
 
   .greeting {
-    margin: 100px 50px 50px;
+    margin: 50px;
     text-align: center;
-    color: blue;
+    color: white;
   }
 
   .historyHeading{
@@ -199,6 +199,7 @@
 
   .table{
     margin: 50px 200px 100px;
+    color: white;
   }
   .parking-listing {
     color: black;
@@ -207,4 +208,17 @@
   .listing-image {
     width: 286px;
     height: 260px;
+  }
+
+  .ov {
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(city.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    font:14px;
+    padding: 10%;
+    width: 100%;
   }
