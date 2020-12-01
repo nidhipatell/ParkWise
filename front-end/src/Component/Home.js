@@ -79,7 +79,7 @@ export default class Home extends React.Component{
                         </div>
                     </div>
                 </div>
-            <div className="cities">
+            <div className="cities" style={{paddingBottom:"300px"}}>
             <h3 className="city"> Featured Cities</h3>
             <div className="imageTor">Toronto</div>
             <div className="imageOta">Ottawa</div>
@@ -88,7 +88,7 @@ export default class Home extends React.Component{
             <div className="imageMon">Monteral</div>
             <div className="imageQue">Quebec</div>
             </div>
-            
+            <Footer/>
         </div>
         );
     }
