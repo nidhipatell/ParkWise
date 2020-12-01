@@ -187,6 +187,19 @@
     border-top: 1px solid white;
   }
 
+  .greeting {
+    margin: 100px 50px 50px;
+    text-align: center;
+    color: blue;
+  }
+
+  .historyHeading{
+    padding-left: 15%;
+  }
+
+  .table{
+    margin: 50px 200px 100px;
+  }
   .parking-listing {
     color: black;
   }

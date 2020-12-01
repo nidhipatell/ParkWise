@@ -3,7 +3,6 @@ import Header from "./Header.js";
 import Footer from "./Footer.js";
 import firebase from '../firebase'
 
-
 export default function Listing(props) {
     var location = props.location.state.data
 
