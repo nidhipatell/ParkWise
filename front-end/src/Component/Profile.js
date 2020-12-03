@@ -70,7 +70,7 @@ export default function Profile() {
                         <h1 className="historyHeading">
                             Your history
                         </h1>
-                        <div className = "table">
+                        <div className = "table" style={{marginBottom: "100px"}}>
                         <table>
                             <tr>
                                 <th>Location</th>
@@ -81,10 +81,10 @@ export default function Profile() {
                                 <td>2/2/1970</td>
                             </tr>
                         </table>
+                        
                     </div>
                 </div>
                 </div>
-
             <Footer />
         </div>
     );

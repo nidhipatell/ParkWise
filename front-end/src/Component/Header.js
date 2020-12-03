@@ -25,8 +25,7 @@ export default function Header()
         return (
             <div className="Header">
                 <nav>
-                    <ul className="menu-ul" style={{
-                        backgroundColor: "#17223B"}}>
+                    <ul className="menu-ul">
                         {currentUser && <li><a href="" className="NavBtn" onClick={handleLogout}>Logout {currentUser.email}</a></li>}
                         {currentUser && <li><a href="/Profile" className="NavBtn" >Profile </a></li>}
                         {!currentUser && <li><a href="/Signup" className="NavBtn">Sign Up</a></li>}
