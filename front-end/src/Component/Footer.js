@@ -5,7 +5,7 @@ class Footer extends React.Component {
             <div>
                 <footer className="footer">
                     <h3> ParkWise | Park N' Go </h3>
-                    <div class="contributors">
+                    <div className="contributors">
                         <a>Nandini Patel - </a>
                         <a>Nidhi Patel - </a>
                         <a>Niraj Patel - </a>

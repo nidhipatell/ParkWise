@@ -2,6 +2,7 @@ import React, {Component, useRef, useState, useEffect} from 'react';
 import Header from "./Header.js";
 import Footer from "./Footer.js";
 import firebase from '../firebase'
+import { Container } from "react-bootstrap"
 
 export default function Listing(props) {
     var location = props.location.state.data
@@ -30,6 +31,7 @@ export default function Listing(props) {
                 <h1 className="display-5 location-parking">Parking in {location}</h1>
                 <hr className="location-hr"></hr>
                 <div className="location-parking">
+                    <Container>
                     {locationsList ? locationsList.map((location) => (
                     <div className = "parking-listing">
                         <div className = "card flex-row flex-wrap">
@@ -47,7 +49,9 @@ export default function Listing(props) {
                         </div>
                     </div>
                     )): "Loading"}
+                    </Container>
                 </div>
+                <Footer></Footer>
             </div>
         )
 }
